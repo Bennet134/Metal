@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BERGHOFF GmbH – Hochpräzise Zerspanung komplexer Bauteile, Baugruppen und Module. Pure performance – absolute precision." />
+  <meta name="keywords" content="Präzisionsbearbeitung, Zerspanung, Elektronenstrahlschweißen, Vakuumlöten, Luft- und Raumfahrt, Medizintechnik, Halbleiterfertigung, Drolshagen" />
+  <title>BERGHOFF GmbH – Pure Performance. Absolute Precision.</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-text">BERGHOFF</span>
+        <span class="nav__logo-sub">GmbH</span>
+      </a>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#leistungen" class="nav__link">Leistungen</a></li>
+        <li><a href="#branchen" class="nav__link">Branchen</a></li>
+        <li><a href="#unternehmen" class="nav__link">Unternehmen</a></li>
+        <li><a href="#kontakt" class="nav__link">Kontakt</a></li>
+        <li>
+          <div class="nav__lang">
+            <a href="#" class="nav__lang-btn active" data-lang="de">DE</a>
+            <span>/</span>
+            <a href="#" class="nav__lang-btn" data-lang="en">EN</a>
+          </div>
+        </li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <div class="hero__badge">Über 35 Jahre Erfahrung</div>
+      <h1 class="hero__title">
+        Pure Performance.<br />
+        <span class="hero__title-accent">Absolute Precision.</span>
+      </h1>
+      <p class="hero__subtitle">
+        Hochpräzise Zerspanung komplexer Bauteile, Baugruppen und Module –
+        aus einer Hand, für die anspruchsvollsten Industrien der Welt.
+      </p>
+      <div class="hero__actions">
+        <a href="#leistungen" class="btn btn--primary">Unsere Leistungen</a>
+        <a href="#kontakt" class="btn btn--outline">Kontakt aufnehmen</a>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stats__item">
+        <span class="stats__number" data-target="35">0</span>
+        <span class="stats__unit">+</span>
+        <span class="stats__label">Jahre Erfahrung</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__number" data-target="5">0</span>
+        <span class="stats__unit"></span>
+        <span class="stats__label">Fokusbranchen</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__number" data-target="4">0</span>
+        <span class="stats__unit">Wo.</span>
+        <span class="stats__label">Prototypen-Lieferzeit</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__number" data-target="100">0</span>
+        <span class="stats__unit">%</span>
+        <span class="stats__label">Aus einer Hand</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leistungen (Services) -->
+  <section class="services section" id="leistungen">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Kompetenzen</span>
+        <h2 class="section__title">Unsere Leistungen</h2>
+        <p class="section__desc">
+          Von der Einzelkomponente bis zur kompletten Baugruppe –
+          wir bieten die gesamte Wertschöpfungskette aus einer Hand.
+        </p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="4" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Hochpräzise Zerspanung</h3>
+          <p class="service-card__text">
+            Präzisionsbearbeitung komplexer Geometrien mit engsten Toleranzen –
+            CNC-Drehen, -Fräsen, -Schleifen und Honen auf höchstem Niveau.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 40L24 8l16 32H8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M24 8v20M16 32h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Elektronenstrahlschweißen</h3>
+          <p class="service-card__text">
+            Präzises Schweißen im Vakuum für verzugsarme Verbindungen –
+            ideal für hochlegierte Stähle, Titan und Sonderwerkstoffe.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="16" width="32" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 16v-4a4 4 0 018 0v4M24 16v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="26" r="4" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Vakuumlöten</h3>
+          <p class="service-card__text">
+            Hochwertige Lötverbindungen im Vakuumofen für maximale
+            Festigkeit und hervorragende Korrosionsbeständigkeit.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 6c9.941 0 18 8.059 18 18S33.941 42 24 42 6 33.941 6 24 14.059 6 24 6z" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 12c6.627 0 12 5.373 12 12S30.627 36 24 36 12 30.627 12 24s5.373-12 12-12z" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Spezielle Oberflächenveredelung</h3>
+          <p class="service-card__text">
+            Maßgeschneiderte Oberflächenbehandlungen für extreme
+            Anforderungen an Verschleiß, Korrosion und Reibung.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="22" width="10" height="16" rx="1" stroke="currentColor" stroke-width="2"/>
+              <rect x="20" y="14" width="10" height="24" rx="1" stroke="currentColor" stroke-width="2"/>
+              <rect x="34" y="10" width="10" height="28" rx="1" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 42h36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Reinigung &amp; Komplettmontage</h3>
+          <p class="service-card__text">
+            Professionelle Reinigung nach höchsten Reinheitsstandards
+            sowie vollständige Montage komplexer Baugruppen und Module.
+          </p>
+        </div>
+        <div class="service-card service-card--highlight">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 6l4.47 9.055L38.5 16.5l-7.25 7.066L33 34l-9-4.73L15 34l2.25-10.434L10 16.5l10.03-1.445L24 6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Prototypen &lt; 4 Wochen</h3>
+          <p class="service-card__text">
+            Schnelle Realisierung Ihrer Prototypen und Einzelteile –
+            von der Zeichnung zur fertigen Komponente in unter 4 Wochen.
+          </p>
+          <span class="service-card__badge">Express-Service</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Branchen (Industries) -->
+  <section class="industries section section--dark" id="branchen">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <span class="section__tag section__tag--light">Fokusbranchen</span>
+        <h2 class="section__title">Branchen &amp; Anwendungen</h2>
+        <p class="section__desc">
+          Wir liefern Präzisionsbauteile für die technologisch anspruchsvollsten
+          Industrien der Welt – mit höchster Qualität und Zuverlässigkeit.
+        </p>
+      </div>
+      <div class="industries__grid">
+        <div class="industry-card">
+          <div class="industry-card__image industry-card__image--aerospace"></div>
+          <div class="industry-card__content">
+            <h3 class="industry-card__title">Luft- &amp; Raumfahrt</h3>
+            <p class="industry-card__text">
+              Bauteile und Baugruppen nach aerospace-spezifischen Normen –
+              zuverlässig, rückverfolgbar, qualitätsgesichert.
+            </p>
+          </div>
+        </div>
+        <div class="industry-card">
+          <div class="industry-card__image industry-card__image--medical"></div>
+          <div class="industry-card__content">
+            <h3 class="industry-card__title">Medizintechnik</h3>
+            <p class="industry-card__text">
+              Hochpräzise Komponenten für medizinische Geräte –
+              gefertigt nach strengsten Qualitäts- und Reinheitsstandards.
+            </p>
+          </div>
+        </div>
+        <div class="industry-card">
+          <div class="industry-card__image industry-card__image--semiconductor"></div>
+          <div class="industry-card__content">
+            <h3 class="industry-card__title">Halbleiterfertigung</h3>
+            <p class="industry-card__text">
+              Präzisionsteile für EUV-Lithographie und Halbleiteranlagen –
+              absolute Sauberkeit und Maßhaltigkeit als Grundvoraussetzung.
+            </p>
+          </div>
+        </div>
+        <div class="industry-card">
+          <div class="industry-card__image industry-card__image--pump"></div>
+          <div class="industry-card__content">
+            <h3 class="industry-card__title">Pumpenherstellung</h3>
+            <p class="industry-card__text">
+              Präzisionskomponenten für Hochleistungspumpen –
+              optimale Passgenauigkeit und höchste Oberflächengüten.
+            </p>
+          </div>
+        </div>
+        <div class="industry-card">
+          <div class="industry-card__image industry-card__image--engineering"></div>
+          <div class="industry-card__content">
+            <h3 class="industry-card__title">Maschinen- &amp; Anlagenbau</h3>
+            <p class="industry-card__text">
+              Komplexe Baugruppen und Module für den Sondermaschinenbau –
+              vom Einzelteil bis zur Serienfertigung.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Unternehmen (About) -->
+  <section class="about section" id="unternehmen">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual">
+          <div class="about__image-frame">
+            <div class="about__image-placeholder">
+              <div class="about__precision-graphic">
+                <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="150" cy="150" r="120" stroke="#1e3a5f" stroke-width="1" opacity="0.3"/>
+                  <circle cx="150" cy="150" r="90" stroke="#1e3a5f" stroke-width="1" opacity="0.4"/>
+                  <circle cx="150" cy="150" r="60" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+                  <circle cx="150" cy="150" r="30" stroke="#0066cc" stroke-width="1.5" opacity="0.7"/>
+                  <circle cx="150" cy="150" r="6" fill="#0066cc"/>
+                  <line x1="30" y1="150" x2="270" y2="150" stroke="#1e3a5f" stroke-width="0.5" opacity="0.5"/>
+                  <line x1="150" y1="30" x2="150" y2="270" stroke="#1e3a5f" stroke-width="0.5" opacity="0.5"/>
+                  <line x1="65" y1="65" x2="235" y2="235" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+                  <line x1="235" y1="65" x2="65" y2="235" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+                  <rect x="135" y="100" width="30" height="100" rx="2" fill="#0066cc" opacity="0.1" stroke="#0066cc" stroke-width="1"/>
+                  <rect x="100" y="135" width="100" height="30" rx="2" fill="#0066cc" opacity="0.1" stroke="#0066cc" stroke-width="1"/>
+                  <text x="150" y="48" fill="#0066cc" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.8">0.001mm</text>
+                  <text x="258" y="154" fill="#0066cc" font-size="10" text-anchor="start" font-family="monospace" opacity="0.8">±0.5μm</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="about__cert-badge">
+            <span class="about__cert-label">Zertifiziert</span>
+            <span class="about__cert-norm">ISO 9001</span>
+          </div>
+        </div>
+        <div class="about__content">
+          <span class="section__tag">Unternehmen</span>
+          <h2 class="section__title">Über 35 Jahre Präzision aus Drolshagen</h2>
+          <p class="about__text">
+            Seit mehr als 35 Jahren steht BERGHOFF GmbH für höchste Qualität
+            in der Präzisionszerspanung. Unser Standort in Drolshagen, Nordrhein-Westfalen,
+            ist das Zentrum unserer Fertigung – ausgestattet mit modernsten
+            CNC-Maschinen und erfahrenen Fachkräften.
+          </p>
+          <p class="about__text">
+            Was uns auszeichnet: Wir denken die gesamte Wertschöpfungskette.
+            Von der Konstruktionsberatung über die Bearbeitung bis hin zu
+            Spezialverfahren wie Elektronenstrahlschweißen und Vakuumlöten –
+            alles aus einer Hand, mit einem Ansprechpartner.
+          </p>
+          <div class="about__values">
+            <div class="about__value">
+              <div class="about__value-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Qualitätssicherung</strong>
+                <span>100% Prüfung kritischer Maße</span>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Modernste Technologie</strong>
+                <span>5-Achs-CNC, Elektronenstrahl, Vakuumlöten</span>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                  <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Persönliche Betreuung</strong>
+                <span>Ein Ansprechpartner für Ihr gesamtes Projekt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process section section--light" id="prozess">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Wie wir arbeiten</span>
+        <h2 class="section__title">Ihr Weg zur Präzisionskomponente</h2>
+      </div>
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__step-num">01</div>
+          <div class="process__step-content">
+            <h3>Anfrage &amp; Beratung</h3>
+            <p>Senden Sie uns Ihre Zeichnungen oder beschreiben Sie Ihr Bauteil.
+               Wir beraten Sie kompetent zu Material, Verfahren und Kosten.</p>
+          </div>
+        </div>
+        <div class="process__connector"></div>
+        <div class="process__step">
+          <div class="process__step-num">02</div>
+          <div class="process__step-content">
+            <h3>Angebot &amp; Planung</h3>
+            <p>Sie erhalten ein detailliertes Angebot mit Terminzusage –
+               transparent und verlässlich, auch für Expressbestellungen.</p>
+          </div>
+        </div>
+        <div class="process__connector"></div>
+        <div class="process__step">
+          <div class="process__step-num">03</div>
+          <div class="process__step-content">
+            <h3>Fertigung &amp; Prüfung</h3>
+            <p>Präzisionsfertigung auf modernsten Maschinen,
+               begleitet von lückenloser Qualitätssicherung.</p>
+          </div>
+        </div>
+        <div class="process__connector"></div>
+        <div class="process__step">
+          <div class="process__step-num">04</div>
+          <div class="process__step-content">
+            <h3>Lieferung</h3>
+            <p>Pünktliche Lieferung des fertig geprüften Bauteils –
+               mit vollständiger Dokumentation und Prüfprotokoll.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="kontakt">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Kontakt</span>
+        <h2 class="section__title">Sprechen Sie mit uns</h2>
+        <p class="section__desc">
+          Haben Sie ein Projekt? Benötigen Sie ein Angebot? Wir freuen uns auf Ihre Anfrage.
+        </p>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="contact__info-item">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Adresse</strong>
+              <span>Langenheid 15<br />57489 Drolshagen<br />Deutschland</span>
+            </div>
+          </div>
+          <div class="contact__info-item">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 8.63 19.79 19.79 0 01.07 2.18 2 2 0 012.04 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Telefon</strong>
+              <span>Bitte per E-Mail anfragen</span>
+            </div>
+          </div>
+          <div class="contact__info-item">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>E-Mail</strong>
+              <span>info@berghoff.eu</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="name" class="form__label">Name *</label>
+              <input type="text" id="name" name="name" class="form__input" placeholder="Ihr Name" required />
+            </div>
+            <div class="form__group">
+              <label for="company" class="form__label">Unternehmen</label>
+              <input type="text" id="company" name="company" class="form__input" placeholder="Ihr Unternehmen" />
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="email" class="form__label">E-Mail *</label>
+            <input type="email" id="email" name="email" class="form__input" placeholder="ihre@email.de" required />
+          </div>
+          <div class="form__group">
+            <label for="subject" class="form__label">Betreff</label>
+            <select id="subject" name="subject" class="form__input form__select">
+              <option value="">Bitte wählen...</option>
+              <option value="angebot">Angebotsanfrage</option>
+              <option value="prototyp">Prototyp / Einzelteil</option>
+              <option value="serie">Serienfertigung</option>
+              <option value="sonstiges">Sonstiges</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Nachricht *</label>
+            <textarea id="message" name="message" class="form__input form__textarea" placeholder="Beschreiben Sie Ihr Projekt oder Ihre Anfrage..." rows="5" required></textarea>
+          </div>
+          <div class="form__group form__group--checkbox">
+            <label class="form__checkbox-label">
+              <input type="checkbox" name="privacy" required />
+              <span>Ich habe die <a href="#datenschutz">Datenschutzerklärung</a> gelesen und bin einverstanden.</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Anfrage absenden</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="nav__logo-text">BERGHOFF</span>
+            <span class="nav__logo-sub">GmbH</span>
+          </div>
+          <p class="footer__tagline">Pure Performance.<br />Absolute Precision.</p>
+          <p class="footer__address">
+            Langenheid 15 · 57489 Drolshagen · Deutschland
+          </p>
+        </div>
+        <div class="footer__nav">
+          <h4 class="footer__nav-title">Leistungen</h4>
+          <ul class="footer__nav-list">
+            <li><a href="#leistungen">Hochpräzise Zerspanung</a></li>
+            <li><a href="#leistungen">Elektronenstrahlschweißen</a></li>
+            <li><a href="#leistungen">Vakuumlöten</a></li>
+            <li><a href="#leistungen">Oberflächenveredelung</a></li>
+            <li><a href="#leistungen">Prototypen &lt; 4 Wochen</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav">
+          <h4 class="footer__nav-title">Branchen</h4>
+          <ul class="footer__nav-list">
+            <li><a href="#branchen">Luft- &amp; Raumfahrt</a></li>
+            <li><a href="#branchen">Medizintechnik</a></li>
+            <li><a href="#branchen">Halbleiterfertigung</a></li>
+            <li><a href="#branchen">Pumpenherstellung</a></li>
+            <li><a href="#branchen">Maschinen- &amp; Anlagenbau</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav">
+          <h4 class="footer__nav-title">Unternehmen</h4>
+          <ul class="footer__nav-list">
+            <li><a href="#unternehmen">Über uns</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="#impressum">Impressum</a></li>
+            <li><a href="#datenschutz">Datenschutz</a></li>
+            <li><a href="#agb">AGB</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 BERGHOFF GmbH. Alle Rechte vorbehalten.</p>
+        <p>
+          <a href="#impressum">Impressum</a> ·
+          <a href="#datenschutz">Datenschutz</a> ·
+          <a href="#agb">AGB</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
